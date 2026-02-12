@@ -1,0 +1,35 @@
+[build-system]
+# These are the tools needed to build your package
+requires = ["scikit-build-core>=0.5", "pybind11"]
+build-backend = "scikit-build-core.build"
+
+[project]
+name = "py_vector"
+version = "0.1.0"
+description = "A high-performance vector math library built with C++"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Mubeen", email = "your@email.com" },
+]
+
+[tool.scikit-build]
+# This tells scikit-build to look for your CMakeLists.txt
+cmake.version = ">=3.15"[build-system]
+# These are the tools needed to build your package
+requires = ["scikit-build-core>=0.5", "pybind11"]
+build-backend = "scikit-build-core.build"
+
+[project]
+name = "py_vector"
+version = "0.1.0"
+description = "A high-performance vector math library built with C++"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Mubeen", email = "your@email.com" },
+]
+
+[tool.scikit-build]
+# This tells scikit-build to look for your CMakeLists.txt
+cmake.version = ">=3.15"
