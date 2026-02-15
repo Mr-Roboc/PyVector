@@ -1,1 +1,1 @@
-# PyVector\n\nA high-performance C++ backend for Python vector operations.
+# PyVectorA high-performance C++ backend for Python vector operations.
